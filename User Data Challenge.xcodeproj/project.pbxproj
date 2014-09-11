@@ -22,6 +22,10 @@
 		82A63E4119C22D1C00BDE15D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82A63E3F19C22D1C00BDE15D /* InfoPlist.strings */; };
 		82A63E4319C22D1C00BDE15D /* User_Data_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63E4219C22D1C00BDE15D /* User_Data_ChallengeTests.m */; };
 		82A63E4F19C2317400BDE15D /* CCUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63E4E19C2317400BDE15D /* CCUserData.m */; };
+		82A63E5419C233BF00BDE15D /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82A63E5019C233BF00BDE15D /* person1.jpeg */; };
+		82A63E5519C233BF00BDE15D /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82A63E5119C233BF00BDE15D /* person2.jpeg */; };
+		82A63E5619C233BF00BDE15D /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82A63E5219C233BF00BDE15D /* person3.jpg */; };
+		82A63E5719C233BF00BDE15D /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82A63E5319C233BF00BDE15D /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		82A63E4219C22D1C00BDE15D /* User_Data_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_ChallengeTests.m; sourceTree = "<group>"; };
 		82A63E4D19C2317400BDE15D /* CCUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUserData.h; sourceTree = "<group>"; };
 		82A63E4E19C2317400BDE15D /* CCUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUserData.m; sourceTree = "<group>"; };
+		82A63E5019C233BF00BDE15D /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		82A63E5119C233BF00BDE15D /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		82A63E5219C233BF00BDE15D /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		82A63E5319C233BF00BDE15D /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +138,10 @@
 		82A63E1E19C22D1C00BDE15D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				82A63E5019C233BF00BDE15D /* person1.jpeg */,
+				82A63E5119C233BF00BDE15D /* person2.jpeg */,
+				82A63E5219C233BF00BDE15D /* person3.jpg */,
+				82A63E5319C233BF00BDE15D /* person4.jpeg */,
 				82A63E1F19C22D1C00BDE15D /* User Data Challenge-Info.plist */,
 				82A63E2019C22D1C00BDE15D /* InfoPlist.strings */,
 				82A63E2319C22D1C00BDE15D /* main.m */,
@@ -242,9 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A63E5619C233BF00BDE15D /* person3.jpg in Resources */,
+				82A63E5419C233BF00BDE15D /* person1.jpeg in Resources */,
 				82A63E3019C22D1C00BDE15D /* Images.xcassets in Resources */,
 				82A63E2219C22D1C00BDE15D /* InfoPlist.strings in Resources */,
+				82A63E5719C233BF00BDE15D /* person4.jpeg in Resources */,
 				82A63E2B19C22D1C00BDE15D /* Main.storyboard in Resources */,
+				82A63E5519C233BF00BDE15D /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
