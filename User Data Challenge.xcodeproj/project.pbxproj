@@ -21,6 +21,7 @@
 		82A63E3919C22D1C00BDE15D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A63E1B19C22D1C00BDE15D /* UIKit.framework */; };
 		82A63E4119C22D1C00BDE15D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82A63E3F19C22D1C00BDE15D /* InfoPlist.strings */; };
 		82A63E4319C22D1C00BDE15D /* User_Data_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63E4219C22D1C00BDE15D /* User_Data_ChallengeTests.m */; };
+		82A63E4F19C2317400BDE15D /* CCUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63E4E19C2317400BDE15D /* CCUserData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		82A63E3E19C22D1C00BDE15D /* User Data ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		82A63E4019C22D1C00BDE15D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82A63E4219C22D1C00BDE15D /* User_Data_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_ChallengeTests.m; sourceTree = "<group>"; };
+		82A63E4D19C2317400BDE15D /* CCUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUserData.h; sourceTree = "<group>"; };
+		82A63E4E19C2317400BDE15D /* CCUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUserData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		82A63E1D19C22D1C00BDE15D /* User Data Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				82A63E4C19C2315D00BDE15D /* Models */,
 				82A63E2619C22D1C00BDE15D /* CCAppDelegate.h */,
 				82A63E2719C22D1C00BDE15D /* CCAppDelegate.m */,
 				82A63E2919C22D1C00BDE15D /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				82A63E3F19C22D1C00BDE15D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82A63E4C19C2315D00BDE15D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82A63E4D19C2317400BDE15D /* CCUserData.h */,
+				82A63E4E19C2317400BDE15D /* CCUserData.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +265,7 @@
 			files = (
 				82A63E2819C22D1C00BDE15D /* CCAppDelegate.m in Sources */,
 				82A63E2419C22D1C00BDE15D /* main.m in Sources */,
+				82A63E4F19C2317400BDE15D /* CCUserData.m in Sources */,
 				82A63E2E19C22D1C00BDE15D /* CCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
